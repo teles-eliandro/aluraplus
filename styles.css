@@ -1,0 +1,248 @@
+:root { 
+    --color-title: #FFFFFF;
+    --color-text:#C0C0C0;
+    --color-text-second: #F9F9F9;
+    --color-button:#167BF7;
+    --color-background:#00030C;
+    --main-font:"Inter", sans-serif;
+
+
+}
+*{ margin: 0;
+    padding:0;
+}
+body{
+    background-color: var(--color-background);
+    font-size: 1rem;
+    font-family: var(--main-font);
+
+
+}
+.first__section__title{ 
+   
+    font-size: 1.75rem;
+    color: var(--color-title);
+    font-weight: 700;
+    
+}
+.first__section__message{
+   
+    font-size: 0.75rem;
+    color: var(--color-title);
+    font-weight: 400;
+}
+
+
+p{color: var(--color-text);}
+
+.first__section{
+    background-image: url(./assets/Background.svg);
+    background-repeat:no-repeat;
+   align-items: center;
+   text-align: center;
+}
+
+.containner{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    gap:8em;
+    
+}
+.first__section__box{
+    margin:0, 0.6em;
+    
+}
+.first__section__buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button__first__section{
+    background-color: var(--color-button);
+    padding: 0.6em;
+    border: solid 1px var(--color-button);
+    border-radius: 8px;
+    color: var(--color-title);
+    text-decoration: none;
+    display:block;
+    margin:1em;
+    width:80%;
+}
+.button2{
+ 
+    background-color: transparent;
+    border: solid 1px var(--color-title);
+}
+.first__section__image{
+    margin:1em 0 2em 0;
+}
+
+
+
+
+.second__section{
+    color: var(--color-title);
+    align-items: center;
+    margin: 0 10em;
+}
+.second__section__image{
+    text-align: center;
+    width: 70%;
+}
+
+.second__section__message__title{
+    font-weight: 700;
+    font-size: 3em;
+   
+}
+.second__section__message__text{
+    color: var(--color-text-second);
+   
+}
+.third__section{
+    margin:5em;
+    align-items: center;
+}
+.third__section__message{
+    margin:1em;
+}
+.third__section__image{
+    text-align: center;
+    
+}
+.third__section__image__{
+    width: 70%;
+}
+.button__third__section{
+
+    background-color: var(--color-button);
+    padding: 0.6em;
+    border: solid 1px var(--color-button);
+    border-radius: 8px;
+    color: var(--color-title);
+    text-decoration: none;
+    margin-top: 1em;
+  
+}
+.fourth__section{
+    margin:7em;
+}
+.last__section{
+    height: 100vh;
+    color: var(--color-title);
+    text-align: center;
+    align-items: center;
+}
+.last__section__title{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.images__andtext{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin:5em;
+   list-style-type: none;
+}
+.image__text{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+footer{
+    text-align: center;
+    color: var(--color-text);
+
+}
+.menu__footer{display: flex;
+justify-content: space-between;
+margin:2em;
+list-style-type: none;
+
+}
+.button__footer__link{
+    text-decoration: none;
+    color: var(--color-title);
+
+}
+.button__footer:hover{ 
+    border: dotted 2px var(--color-button);
+    max-width: auto;
+   
+}
+@media(max-width:1100px){
+
+    .body{ 
+        display: grid;
+        align-items: center;
+        margin:0 2%}
+
+    
+    .first__section,.third__section{
+        height: 100vh;
+        width: auto;
+        background-image: none;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 5% 10%;
+        gap: 1em;
+        justify-content: center;
+    
+        
+    }
+     .background__fond{
+        background-image:url(./assets/Background.svg);
+        background-size: cover;
+        height: 45vh;
+        width: 100vw;
+        margin-bottom: 1em;
+    }
+   
+    .second__section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 5% 10%;
+        gap: 2em;
+    }
+.second__section__image{width: auto;
+padding: 0;}
+
+.last__section{margin: 5% 10%;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.images__andtext{ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    
+    
+}
+.image__text{font-size: 0.6em;
+font-weight: 400;
+margin-top: 6em;}
+.image__text__image{width: 50%;
+    
+}
+.footer{
+    text-align: justify;
+    margin: 2%;}
+.menu__footer{
+    flex-wrap: wrap;
+    width: auto;
+    }
+
+}
+
+
+
+
+    
+    
+
+
