@@ -38,8 +38,8 @@ p{color: var(--color-text);}
 .first__section{
     background-image: url(./assets/Background.svg);
     background-repeat:no-repeat;
-    align-items: center;
-    text-align: center;
+   align-items: center;
+   text-align: center;
 }
 
 .containner{
@@ -92,7 +92,7 @@ p{color: var(--color-text);}
     width: 70%;
 }
 .second__section__message{
-    margin-right: 3em;
+   margin: 3em;
 }
 .second__section__message__title{
     font-weight: 700;
@@ -117,7 +117,7 @@ p{color: var(--color-text);}
     
 }
 .third__section__image__{
-    width: 70%;
+    width: 75%;
 }
 .button__third__section{
 
@@ -144,7 +144,7 @@ p{color: var(--color-text);}
     font-size: 3rem;
 }
 .images__andtext{
-   display: flex;
+    display: flex;
    justify-content: space-between;
    align-items: center;
    margin:5em;
@@ -177,16 +177,17 @@ list-style-type: none;
     max-width: auto;
    
 }
-@media(max-width:1100px){
+@media(max-width:1000px){
 
-    .body{ 
-        display: grid;
-        align-items: center;
-        margin:0 2%}
-
+  
+    .first__section__image{width:60vw;}
+    .first__section__message{
+        width: auto;
+        height: auto;
+     
+    }
     
     .first__section,.third__section{
-        height: 100vh;
         width: auto;
         background-image: none;
         display: flex;
@@ -194,13 +195,13 @@ list-style-type: none;
         margin: 5% 10%;
         gap: 1em;
         justify-content: center;
-    
+        text-align: center;
         
     }
      .background__fond{
         background-image:url(./assets/Background.svg);
-        background-size: cover;
-        height: 45vh;
+        background-size:cover;
+        height: 50vw;
         width: 100vw;
         margin-bottom: 1em;
     }
@@ -209,16 +210,29 @@ list-style-type: none;
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 5% 10%;
-        gap: 2em;
+        margin: 3%;
+        gap: 0.7em;
+        height: 100vh;
+       justify-content: center;
     }
-.second__section__image{width: auto;
-padding: 0;}
-
+.second__section__image{
+    width: 65vw;
+    padding: 0;
+    margin:0}
+.second__section__message{
+    margin: 0 8%;
+    padding:0;
+}
+.third__section{height: 100vh;
+}
+.third__section__image{text-align: center;}
+.third__section__image__{width: 60vw; margin-left: 5%;
+}
 .last__section{margin: 5% 10%;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    height: 50vh;
+
 }
 .images__andtext{ display: flex;
     justify-content: space-between;
@@ -230,16 +244,21 @@ padding: 0;}
 .image__text{font-size: 0.6em;
 font-weight: 400;
 margin-top: 6em;}
-.image__text__image{width: 50%;
+.image__text__image{width: 28vw;
     
 }
 .footer{
-    text-align: justify;
-    margin: 2%;}
+    text-align: center;
+    width: 100vw;
+    margin: 5%;
+}
+    
 .menu__footer{
-    flex-wrap: wrap;
-    width: auto;
+   flex-direction: column;
+   justify-content: center;
     }
+    .text__footer{width: 90vw;
+    margin: 5%;}
 
 }
 
