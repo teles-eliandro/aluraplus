@@ -85,16 +85,19 @@ p{color: var(--color-text);}
 .second__section{
     color: var(--color-title);
     align-items: center;
-    margin: 0 10em;
+    margin: 0 8.5em;
 }
 .second__section__image{
     text-align: center;
     width: 70%;
 }
-
+.second__section__message{
+    padding-right: 3em;
+}
 .second__section__message__title{
     font-weight: 700;
     font-size: 3em;
+   
    
 }
 .second__section__message__text{
@@ -102,14 +105,15 @@ p{color: var(--color-text);}
    
 }
 .third__section{
-    margin:5em;
+    margin:5em 7em;
     align-items: center;
 }
 .third__section__message{
-    margin:1em;
+  
 }
 .third__section__image{
     text-align: center;
+    margin-right: 2em;
     
 }
 .third__section__image__{
@@ -127,10 +131,10 @@ p{color: var(--color-text);}
   
 }
 .fourth__section{
-    margin:7em;
+    margin:8.5em;
 }
 .last__section{
-    height: 100vh;
+    height: 80vh;
     color: var(--color-title);
     text-align: center;
     align-items: center;
