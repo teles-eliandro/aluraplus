@@ -1,4 +1,4 @@
-# aluraplus Landing Page
+# Alura+ Landing Page
 
 ## Overview
 
